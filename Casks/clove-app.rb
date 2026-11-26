@@ -1,8 +1,8 @@
 # Rendered by .github/workflows/release.yml in pierre-borckmans/clove.
 # Edit packaging/homebrew/clove-app.rb.in there, not this file.
 cask "clove-app" do
-  version "0.1.20"
-  sha256 "34b0da7c1da1f6dfa3011cdf5e8f042e6ad19acbfa39f450ded781c2fa48ee24"
+  version "0.1.21"
+  sha256 "e9f19c09e024dafa0bf2467da8348c14297aa3619f4645c2801a40978ea8c2c2"
 
   url "https://github.com/pierre-borckmans/clove/releases/download/v#{version}/clove-app-v#{version}-universal.dmg"
   name "clove"
