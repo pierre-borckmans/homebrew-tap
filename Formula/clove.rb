@@ -7,23 +7,23 @@ class Clove < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/pierre-borckmans/clove/releases/download/v0.1.18/clove-v0.1.18-aarch64-apple-darwin.tar.gz"
-      sha256 "ce46b8afdbb458ff9a1f1001b40cd321c74f85c3620bead9ef226d6bd41e1c2b"
+      url "https://github.com/pierre-borckmans/clove/releases/download/v0.1.19/clove-v0.1.19-aarch64-apple-darwin.tar.gz"
+      sha256 "173f0d54e80e9c4384a1b8e191721879ad3bea1a1baf4f817d29da7a9ce4b397"
     end
     on_intel do
-      url "https://github.com/pierre-borckmans/clove/releases/download/v0.1.18/clove-v0.1.18-x86_64-apple-darwin.tar.gz"
-      sha256 "6eee327e0d844320583105c1231472a4ce2dd8a62b8fadff07ee9ef0681dbe35"
+      url "https://github.com/pierre-borckmans/clove/releases/download/v0.1.19/clove-v0.1.19-x86_64-apple-darwin.tar.gz"
+      sha256 "34baec6803fbe7d2dca01a90c46de9735ed68efa69fdf910f6ef0ccd3f0d0386"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pierre-borckmans/clove/releases/download/v0.1.18/clove-v0.1.18-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5eb05a2ff49de2e861d364fcd667dba440cc2ab9f2d7e54fc8644cb8fa411270"
+      url "https://github.com/pierre-borckmans/clove/releases/download/v0.1.19/clove-v0.1.19-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "cd7d95c81e1d928cb294d557ec75f19eac801c504e312ac4ebf129c368ad6d93"
     end
     on_intel do
-      url "https://github.com/pierre-borckmans/clove/releases/download/v0.1.18/clove-v0.1.18-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "83fe528d663c70236efda4d023e3c785a53bb954f3a9d71549ebe1fff5afe9a6"
+      url "https://github.com/pierre-borckmans/clove/releases/download/v0.1.19/clove-v0.1.19-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6c84db5946f4a5b2275e64aae8a98049ffb8b35690fc1e3882aed02fe6b3c665"
     end
   end
 
