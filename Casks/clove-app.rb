@@ -9,7 +9,7 @@ cask "clove-app" do
   desc "Menu-bar app for clove, copy-on-write git worktrees"
   homepage "https://github.com/pierre-borckmans/clove"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   # The background service and agent hooks run the CLI.
   depends_on formula: "pierre-borckmans/tap/clove"
 
